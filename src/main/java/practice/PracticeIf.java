@@ -2,21 +2,22 @@ package practice;
 
 public class PracticeIf {
 
-	public static void main(String[] args) {
-		int num = 0;
+	public static void practiceIf() {
 		
 		for (int i = 1; i <= 100; i++) {
-			num++;	
+			i++;	
 		
-			if (num % 3 == 0 && num % 5 == 0) {
+			if (i % 3 == 0 && i % 5 == 0) {
 				System.out.println("FizzBuzz");
-			}
-			else if (num % 3 == 0) {
+			}else if (i % 3 == 0) {
 				System.out.println("Fizz");
-			}
-			else if (num % 5 == 0) {
+				
+			}else if (i % 5 == 0) {
 				System.out.println("Buzz");
-		  }
+				
+			}else {
+				System.out.println(i);
+			}
 		}
 	}
 

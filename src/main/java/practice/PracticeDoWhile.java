@@ -2,7 +2,7 @@ package practice;
 
 public class PracticeDoWhile {
 
-	public static void main(String[] args) {
+	public static void practiceDoWhile() {
 		int num = 100;
 
 		do {
